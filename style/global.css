@@ -1,0 +1,21 @@
+:root {
+	--white: #fff;
+	--black: #000;
+	--blue: #11343a;
+	--dark-blue: #122a2f;
+	--yellow: #FFE600;
+	--gray: #394948;
+	--dark-gray: #131316;
+	--blue-gray: #131a1d;
+
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	direction: ltr;
+}

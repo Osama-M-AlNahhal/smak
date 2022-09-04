@@ -1,0 +1,80 @@
+@media only screen and (min-width: 768px) {
+
+	div[class*='container'] {
+		width: 700px;
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+/* ----------------------------------------------------
+						navbar
+-----------------------------------------------------*/
+
+	.navbar-container {
+		height: 10vh;
+		
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		transform: scale(0.8);
+	    position: relative;
+	    top: 0.4rem;
+	    left: 0rem;
+	}
+
+	.hamburger-icon {
+		display: none;
+	}
+	
+	.navbar-links-ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		height: fit-content;
+
+		padding-right: 1rem;
+		padding-top: 0;
+	}
+
+	.block-before::before {
+	content: '';
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: var(--yellow);
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+	right: auto;
+	left: -1.5rem;
+
+	}
+
+	.navbar-link {
+		margin-left: 0.5rem;
+		display: inline-block;
+		font-size: 1rem;
+		border-bottom: 1px solid transparent;
+	}
+
+	.navbar-link:hover {
+		border-bottom: 1px solid var(--yellow);
+
+	}
+
+	.current:hover {
+		border-bottom: 0px solid var(--yellow);
+	}
+
+	.current {
+		font-size: inherit;
+		letter-spacing: 0;
+
+	}
+
+}
