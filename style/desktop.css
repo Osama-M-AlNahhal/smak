@@ -77,4 +77,24 @@
 
 	}
 
+/* ----------------------------------------------------
+						hero
+-----------------------------------------------------*/
+
+	.slogan {
+		font-size: 2.5rem;
+	    line-height: 1.25;
+	    max-width: 30rem;
+	    top: 42vh;
+	}
+
+	.buy-btn {
+		top: 62vh;
+	}
+
+	.move-down-btn {
+		width: 4rem;
+		height: 4rem;
+	}
+
 }

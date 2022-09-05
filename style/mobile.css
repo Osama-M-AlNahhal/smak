@@ -10,10 +10,11 @@ div[class*='container'] {
 
 nav {
 	background-color: var(--dark-blue);
-	position: fixed;
+	
 	width: 100vw;
-	height: 12vh;
 
+	position: fixed;
+	z-index: 20;
 	overflow: hidden;
 }
 
@@ -55,13 +56,11 @@ nav {
 	gap: 2rem;
 	padding-top: 2rem;
 
-	animation: all 0.5s;
 	
 }
 .navbar-links-ul.expand {
 	display: flex;
 	animation: all 0.5s;
-	
 
 }
 
@@ -99,3 +98,80 @@ nav {
 /* ----------------------------------------------------
 						hero
 -----------------------------------------------------*/
+
+
+.hero-container {
+	padding-top: 12vh;
+	height: 100vh;
+
+	position: relative;
+
+	background-color: var(--blue);
+}
+
+.hero-bg-strip {
+	width: 100%;
+	height: 40vh;
+	background-color: var(--dark-blue);
+	position: absolute;
+    top: 36vh;
+
+    z-index: 1;
+}
+
+.slogan {
+	font-size: 2rem;
+	color: var(--white);
+	position: absolute;
+    top: 42vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 25rem;
+    z-index: 2;
+    text-align: center;
+}
+
+.buy-btn {
+	width: 12rem;
+	padding: 0.75rem 2rem;
+	font-weight: bold;
+	text-align: center;
+	color: var(--black);
+	background-color: var(--yellow);
+
+	position: absolute;
+	top: 60vh;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+.move-down-btn {
+	width: 3rem;
+	height: 3rem;
+	padding: 0.5rem;
+	background-color: var(--yellow);
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.move-down-btn svg {
+	width: 2rem;
+	height: 2rem;
+	fill: var(--white);
+}
