@@ -13,4 +13,10 @@ const navbarLinks = $('.navbar-links-ul');
 
 hamburgerIcon.addEventListener('click', ()=>{
 	navbarLinks.classList.toggle('expand');
-})
+});
+
+
+/* ----------------------------------------------------
+				services functionality
+-----------------------------------------------------*/
+

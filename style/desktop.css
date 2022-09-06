@@ -92,9 +92,51 @@
 		top: 62vh;
 	}
 
-	.move-down-btn {
-		width: 4rem;
-		height: 4rem;
+	
+
+/* ----------------------------------------------------
+						Services
+-----------------------------------------------------*/
+	.services-container {
+		padding-top: 15vh;
 	}
 
+	.services {
+		margin-top: 1rem;
+		flex-wrap: nowrap;
+		gap: 1rem;
+	}
+
+	.secondary-title {
+		font-weight: normal;
+		font-size: 1rem;
+	}
+
+	.description {
+		font-weight: lighter;
+	}
+	
+	.service {
+		max-width: 11rem;
+	}
+
+	.service-icon-wrapper {
+		width: 4rem;
+		height: 4rem;
+
+	}
+
+	.service-icon {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.service-title {
+		font-size: 0.8rem
+		;
+	}	
+
+	.service-description {
+		font-weight: lighter;
+	}
 }

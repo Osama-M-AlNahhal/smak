@@ -1,9 +1,11 @@
 :root {
 	--white: #fff;
+	--off-white: #fbfbfb;
 	--black: #000;
 	--blue: #11343a;
 	--dark-blue: #122a2f;
 	--yellow: #FFE600;
+	--light-gray: #f0f0f0;
 	--gray: #394948;
 	--dark-gray: #131316;
 	--blue-gray: #131a1d;
@@ -18,4 +20,5 @@
 
 body {
 	direction: ltr;
+	scroll-behavior: smooth;
 }

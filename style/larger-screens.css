@@ -2,7 +2,6 @@
 
 	div[class*='container'] {
 		width: 1000px;
-		height: 5rem;
 		padding-right: 1rem;
 		padding-left: 1rem;
 	}
@@ -25,16 +24,64 @@
 -----------------------------------------------------*/
 
 	.slogan {
-		font-size: 3.5rem;
+		font-size: 3rem;
     	max-width: 40rem;
 	}
 
 	.buy-btn {
 		font-size: 1.5rem;
     	width: fit-content;
-    	padding: 1rem 4rem;
+    	padding: 1rem 3rem;
+    	line-height: 1;
 	}
 
+	.move-down-btn {
+		width: 4rem;
+		height: 4rem;
+	}
+
+
+/* ----------------------------------------------------
+						Services
+-----------------------------------------------------*/
+
+	.secondary-title {
+		font-size: 1.5rem;
+	}
+
+	.main-title {
+		font-size: 3rem;
+	}
+
+	.divider {
+		width: 15rem;
+	}
+
+	.description {
+		font-size: 1.5rem;
+	}
+
+	.service {
+		max-width: 15rem;
+	}
+
+	.service-icon-wrapper {
+		width: 5rem;
+    	height: 5rem;
+	}
+
+	.service-icon {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.service-title {
+		font-size: 1.5rem;
+	}
+
+	.service-description {
+		font-size: 1.3rem;
+	}
 
 
 
