@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 
 	div[class*='container'] {
-		width: 700px;
+		width: 750px;
 		padding-right: 1rem;
 		padding-left: 1rem;
 	}
@@ -99,6 +99,7 @@
 -----------------------------------------------------*/
 	.services-container {
 		padding-top: 15vh;
+		padding-bottom: 1.5rem;
 	}
 
 	.services {
@@ -114,6 +115,7 @@
 
 	.description {
 		font-weight: lighter;
+		font-size: 1.1rem;
 	}
 	
 	.service {
@@ -139,4 +141,25 @@
 	.service-description {
 		font-weight: lighter;
 	}
+
+
+/* ----------------------------------------------------
+					how we do it
+-----------------------------------------------------*/
+
+	.how-description {
+		font-size: 1.1rem;
+	}
+	.stages {
+		gap: 0;
+	}
+
+	.stage {
+		padding: 0.5rem;
+	}
+
+	.stage-text {
+		max-width: 6rem;
+	}
+
 }

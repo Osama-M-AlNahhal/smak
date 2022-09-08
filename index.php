@@ -16,6 +16,7 @@
 	<?php require_once 'php/navbar.php'; ?>
 	<?php require_once 'php/hero.php'; ?>
 	<?php require_once 'php/services.php'; ?>
+	<?php require_once 'php/how.php'; ?>
 	<?php require_once 'php/work.php'; ?>
 	<?php require_once 'php/about.php'; ?>
 	<?php require_once 'php/clients.php'; ?>

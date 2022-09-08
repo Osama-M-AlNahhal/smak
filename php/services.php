@@ -3,11 +3,11 @@
 		<p class="secondary-title">OUR SERVICES</p>
 		<h2 class="main-title">WHAT WE LOVE TO DO</h2>
 		<div class="divider"></div>
-		<p class="description">At Smak<span></span> Theme, our experts can offer you a variety of branding and marketing services to help your business grow. Some of our most common services are below:</p>
+		<p class="description">At Smak<span>&trade;</span> Theme, our experts can offer you a variety of branding and marketing services to help your business grow. Some of our most common services are below:</p>
 		<div class="services">
 			<div class="service">
 				<div class="service-icon-wrapper">
-					<img src="img/css3.png" class="service-icon">
+					<img src="img/css3.svg" class="service-icon">
 				</div>
 				<div class="service-text">
 					<h2 class="service-title">WEB DESIGN</h2>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="service">
 				<div class="service-icon-wrapper">
-					<img src="img/pen.png" class="service-icon">
+					<img src="img/pen.svg" class="service-icon">
 				</div>
 				<div class="service-text">
 					<h2 class="service-title">GRAPHIC DESIGN</h2>
@@ -25,7 +25,7 @@
 			</div>
 			<div class="service">
 				<div class="service-icon-wrapper">
-					<img src="img/dslr-camera.png" class="service-icon">
+					<img src="img/camera.svg" class="service-icon">
 				</div>
 				<div class="service-text">
 					<h2 class="service-title">PHOTOGRAPHY</h2>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="service">
 				<div class="service-icon-wrapper">
-					<img src="img/gear-option.png" class="service-icon">
+					<img src="img/cog.svg" class="service-icon">
 				</div>
 				<div class="service-text">
 					<h2 class="service-title">DEVELOPMENT</h2>

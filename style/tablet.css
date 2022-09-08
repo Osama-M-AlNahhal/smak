@@ -47,4 +47,30 @@
 	.service-title {
 		font-size: 1.2rem;
 	}
+
+
+/* ----------------------------------------------------
+					how we do it
+-----------------------------------------------------*/
+
+	.stages {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		gap: 1rem;
+	}
+
+	.stage {
+		flex-direction: column;
+		padding: 1rem;
+		gap: 1rem;
+	}
+
+	.stage-text {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		gap: 0.5rem;
+	}
+	
 }

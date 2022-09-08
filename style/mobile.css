@@ -188,6 +188,7 @@ nav {
 .services-container {
 	padding: 1rem;
 	padding-top: 7rem;
+	padding-bottom: 3rem;
 
 	display: flex;
 	flex-direction: column;
@@ -288,4 +289,83 @@ nav {
 .service-icon-wrapper:hover>* {
 		filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
 
+}
+
+/* ----------------------------------------------------
+					how we do it
+-----------------------------------------------------*/
+
+.how-section {
+	background-color: var(--blue-gray);
+
+}
+
+.how-container {
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.how-title {
+	color: var(--yellow);
+	margin-right: auto;
+    margin-left: auto;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.how-description {
+	font-weight: lighter;
+	color: var(--white);
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.stages {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.stage {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.stage-icon {
+	width: 2rem;
+    height: 2rem;
+    filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
+}
+
+.stage-text {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 10rem;
+}
+
+.stage-title {
+	color: var(--white);
+}
+
+.stage-description {
+	color: var(--white);
+	font-size: 0.8rem;
+	font-weight: lighter;
+	line-height: 1;
 }

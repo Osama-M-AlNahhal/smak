@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1200px) {
 
 	div[class*='container'] {
-		width: 1000px;
+		width: 900px;
 		padding-right: 1rem;
 		padding-left: 1rem;
 	}
@@ -45,12 +45,16 @@
 						Services
 -----------------------------------------------------*/
 
+	.services-container {
+		gap: 0.5rem;
+	}
+
 	.secondary-title {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	.main-title {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	.divider {
@@ -58,7 +62,11 @@
 	}
 
 	.description {
-		font-size: 1.5rem;
+		font-size: 1rem;
+	}
+
+	.services {
+		margin-top: 0;
 	}
 
 	.service {
@@ -66,24 +74,63 @@
 	}
 
 	.service-icon-wrapper {
-		width: 5rem;
-    	height: 5rem;
+		width: 4rem;
+    	height: 4rem;
 	}
 
 	.service-icon {
-		width: 2rem;
-		height: 2rem;
+		width: 1.8rem;
+		height: 1.8rem;
 	}
 
 	.service-title {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	.service-description {
-		font-size: 1.3rem;
+		font-size: 0.9rem;
 	}
 
+/* ----------------------------------------------------
+					how we do it
+-----------------------------------------------------*/
 
+	.how-container {
+		padding-top: 1.5rem;
+		gap: 1rem;
+	}
+	.how-title {
+		font-size: 2rem;
+	}
+
+	.how-description {
+		font-size: 1rem;
+	}
+
+	.stages {
+		margin-top: 0;
+	}
+
+	.stage {
+		gap: 1.5rem;
+	}
+
+	.stage-icon {
+		width: 2rem;
+		height: 2rem;
+	}
+	
+	.stage-text {
+		max-width: 6rem;
+	}
+
+	.stage-title {
+		font-size: 1rem;
+	}
+	.stage-description {
+		font-size: 0.9rem;
+		font-weight: lighter;
+	}
 
 
 }
