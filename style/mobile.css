@@ -291,6 +291,8 @@ nav {
 
 }
 
+
+
 /* ----------------------------------------------------
 					how we do it
 -----------------------------------------------------*/
@@ -344,11 +346,18 @@ nav {
     gap: 3rem;
 }
 
+.stage:hover {
+	background-color: var(--blue-gray-hover);
+	transition: 0.5s all smooth;
+	transform: scale(1.05);
+}
+
 .stage-icon {
 	width: 2rem;
     height: 2rem;
     filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
 }
+
 
 .stage-text {
 	display: flex;
@@ -369,3 +378,215 @@ nav {
 	font-weight: lighter;
 	line-height: 1;
 }
+
+
+/* ----------------------------------------------------
+						works
+-----------------------------------------------------*/
+
+
+.works-section {
+	background-color: var(--white);
+	position: relative;
+}
+
+.works-container {
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	position: relative;
+	text-align: center;
+}
+
+.works-secondary-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	line-height: 1;
+	font-weight: normal;
+}
+
+.works-main-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.divider {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+
+	width: 10rem;
+	border-bottom: 3px solid var(--yellow);
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+
+	justify-content: flex-start;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.filters {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.filter {
+	display: block;
+	width: 100%;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 18px;
+
+	/*this makes the width of the button fit the text inside it*/
+	white-space: nowrap;
+
+	background-color: var(--yellow);
+}
+
+.filter.selected {
+	background-color: var(--black);
+	color: var(--yellow);
+}
+
+.work-showcase {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+
+	background-color: var(--off-white);
+
+	padding-top: 3.5rem;
+	padding-bottom: 2rem;
+
+	position: relative;
+}
+
+.showcase-hidden {
+	display: none;
+}
+
+.close-showcase {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.close-showcase:hover {
+	cursor: pointer;
+}
+
+.work-img {
+	width: 16rem;
+	height: 16rem;
+	object-fit: contain;
+	background-color: var(--blue);
+}
+
+.work-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	gap: 1rem;
+}
+
+
+.square-divider {
+	width: 0.5rem;
+    height: 0.5rem;
+    background: var(--yellow);
+
+    display: none;
+}
+
+.cta-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.view-live-btn {
+	color: var(--white);
+	background-color: var(--yellow);
+	padding: 0.5rem 2rem;
+}
+
+.work-selection-wrapper {
+	background-color: var(--gray);
+
+	width: 100%
+
+	margin-left: auto;
+	margin-right: auto;
+
+	height: 20rem;
+	overflow: scroll;
+
+	position: relative;
+	left: calc(-50vw + 50%);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.work-selection-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.work-selection-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/*
+.work {
+	width: 50%;
+	height: 10rem;
+}
+
+.work:nth-child(odd) {
+	background-color: var(--yellow);
+}
+
+.work:nth-child(even) {
+	background-color: var(--blue);
+}*/
+
+
+
+
+
+

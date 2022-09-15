@@ -96,7 +96,7 @@
 -----------------------------------------------------*/
 
 	.how-container {
-		padding-top: 1.5rem;
+		padding-top: 2rem;
 		gap: 1rem;
 	}
 	.how-title {
@@ -130,6 +130,15 @@
 	.stage-description {
 		font-size: 0.9rem;
 		font-weight: lighter;
+	}
+
+/* ----------------------------------------------------
+						works
+-----------------------------------------------------*/
+
+	.work-img {
+		min-width: 35rem;
+		min-height: 25rem;
 	}
 
 

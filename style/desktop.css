@@ -162,4 +162,28 @@
 		max-width: 6rem;
 	}
 
+/* ----------------------------------------------------
+						works
+-----------------------------------------------------*/
+
+	.work-img {
+		min-width: 25rem;
+		min-height: 20rem;
+	}
+
+	.work-text {
+		align-items: flex-start;
+		text-align: left;
+	}
+
+	.work-title {
+		font-size: 1.5rem;
+	}
+
+	.work-description {
+		font-size: 0.9rem;
+	}
+
+
+
 }

@@ -72,5 +72,56 @@
 		align-items: center;
 		gap: 0.5rem;
 	}
+
+/* ----------------------------------------------------
+						works
+-----------------------------------------------------*/
+
+	.works-description {
+		color: var(--gray-text);
+	}
+	.filters {
+		justify-content: center;
+    	gap: 1rem;
+	}
+
+	.filter {
+		width: auto;
+		padding: 0;
+		background-color: inherit;
+	}
+
+	.filter.selected {
+		background-color: inherit;
+	}
+
+	.square-divider {
+		display: block;
+	}
+
+	.work-showcase {
+		flex-direction: row;
+	}
+
+	.work-img {
+		min-width: 15rem;
+		min-height: 20rem;
+	}
+
+	.work-text {
+		align-items: flex-start;
+		text-align: left;
+	}
+
+	.work-title {
+		font-size: 1.5rem;
+	}
+
+	.work-description {
+		font-size: 0.9rem;
+		color: var(--gray-text);
+	}
+
+
 	
 }
