@@ -149,7 +149,23 @@
 		width: 7rem;
 	}
 
+/* ----------------------------------------------------
+					About us
+-----------------------------------------------------*/
 
+
+.value-text {
+	align-items: flex-start;
+	text-align: left;
+}
+
+.value:nth-of-type(even) {
+	flex-direction: row;
+}
+
+.au-description {
+	margin-bottom: 0;
+}
 
 
 	

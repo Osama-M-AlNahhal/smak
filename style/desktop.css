@@ -200,4 +200,40 @@
 	.number-wrapper {
 		width: 23%;
 	}
+
+/* ----------------------------------------------------
+					About us
+-----------------------------------------------------*/
+
+	.values-wrapper {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.value {
+		border: none;
+		flex-direction: row;
+	}
+
+	.value:nth-of-type(1) {
+		border: none;
+	}
+
+	.value-icon-wrapper {
+		width: 4rem;
+		height: 4rem;
+
+		min-width: 4rem;
+		min-height: 4rem;
+	}
+
+	.value-text {
+		flex-direction: column;
+		max-width: 15rem;
+	}
+
+	.value-description {
+		font-size: 0.9rem;
+		color: var(--gray);
+	}
 }

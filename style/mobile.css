@@ -763,6 +763,152 @@ nav {
 }
 
 
+/* ----------------------------------------------------
+					About us
+-----------------------------------------------------*/
 
+
+.about-us-section {
+	background-color: var(--white);
+	position: relative;
+}
+
+.about-us-container {
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	position: relative;
+	text-align: center;
+}
+
+.au-secondary-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	line-height: 1;
+	font-weight: normal;
+	color: var(--gray-text);
+}
+
+.au-main-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.divider {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+
+	width: 10rem;
+	border-bottom: 3px solid var(--yellow);
+}
+
+.au-description {
+	color: var(--gray-text);
+	margin-bottom: 1rem;
+}
+
+.values-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.value {
+	transition: 0.2s;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+
+	padding: 1rem;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+	border-bottom: 1px solid var(--black);
+	border-top: 1px solid transparent;
+}
+
+.value:nth-of-type(1) {
+	border-top: 1px solid var(--black);
+}
+
+.value:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+
+
+.value:hover {
+	transition: 0.2s;
+	background-color: var(--light-gray);
+}
+
+.value-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.value-name {
+	line-height: 1.5;
+}
+
+.value-description {
+	line-height: 1;
+}
+.value-icon-wrapper {
+	transition: 0.2s;
+
+	width: 5rem;
+	height: 5rem;
+
+	min-width: 5rem;
+	min-height: 5rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--yellow);
+
+	border: 1px solid transparent;
+	border-radius: 50%;
+
+	cursor: pointer;
+
+
+}
+.value-icon {
+	width: 2rem;
+	height: 2rem;
+	filter: invert(99%) sepia(94%) saturate(17%) hue-rotate(336deg) brightness(106%) contrast(100%);
+}
+
+.value-icon-wrapper:hover {
+	transition: 0.2s;
+	background-color: var(--white);
+	border-color: var(--black); 
+}
+
+.value-icon-wrapper:hover>* {
+	transition: 0.2s;
+	filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
+
+}
 
 

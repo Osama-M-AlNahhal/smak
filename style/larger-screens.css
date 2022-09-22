@@ -160,4 +160,19 @@
 		font-size: 1rem;
 		font-weight: lighter;
 	}
+
+/* ----------------------------------------------------
+					About us
+-----------------------------------------------------*/
+
+	.value-text {
+		flex-direction: column;
+		max-width: 20rem;
+	}
+
+	.value-title {
+		font-size: 1rem;
+	}
+
+
 }
