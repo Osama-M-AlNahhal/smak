@@ -80,6 +80,7 @@
 	.works-description {
 		color: var(--gray-text);
 	}
+
 	.filters {
 		justify-content: center;
     	gap: 1rem;
@@ -119,8 +120,36 @@
 
 	.work-description {
 		font-size: 0.9rem;
-		color: var(--gray-text);
 	}
+
+/* ----------------------------------------------------
+				like-our-porfolio
+-----------------------------------------------------*/
+
+	.lop-container {
+		gap: 1.25rem;
+	}
+
+	.lop-contact-btn {
+		transition: 0.3s;
+		transform: rotate(0deg);
+	}
+
+	.lop-contact-btn:hover {
+		transition: 0.3s;
+		transform: rotate(-5deg);
+	}
+
+
+/* ----------------------------------------------------
+					numbers
+-----------------------------------------------------*/
+
+	.number-wrapper {
+		width: 7rem;
+	}
+
+
 
 
 	

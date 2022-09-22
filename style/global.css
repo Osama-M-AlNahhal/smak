@@ -7,10 +7,16 @@
 	--yellow: #FFE600;
 	--light-gray: #f5f5f5;
 	--gray: #394948;
-	--gray-text: #949494;
+	--gray-text: #666;
 	--dark-gray: #131316;
 	--blue-gray: #131a1d;
 	--blue-gray-hover: #1a2226;
+
+	--viewportWidth: calc(100vw - var(--scrollbarWidth));
+
+	/* finalHalfScrollbar: value must be negative */
+	--finalHalfScrollbar: calc(var(--halfScrollbarWidth) * -1);
+
 
 }
 
@@ -20,7 +26,14 @@
 	box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	direction: ltr;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
+
+

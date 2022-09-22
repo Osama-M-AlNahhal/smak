@@ -232,6 +232,8 @@ nav {
 }
 
 .service {
+	transition: 0.2s;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -240,6 +242,7 @@ nav {
 }
 
 .service:hover {
+	transition: 0.2s;
 	background-color: var(--light-gray);
 }
 
@@ -259,6 +262,8 @@ nav {
 	line-height: 1;
 }
 .service-icon-wrapper {
+	transition: 0.2s;
+
 	width: 5rem;
 	height: 5rem;
 
@@ -273,6 +278,8 @@ nav {
 	border: 1px solid transparent;
 	border-radius: 50%;
 
+	cursor: pointer;
+
 
 }
 .service-icon {
@@ -282,12 +289,14 @@ nav {
 }
 
 .service-icon-wrapper:hover {
+	transition: 0.2s;
 	background-color: var(--white);
 	border-color: var(--black); 
 }
 
 .service-icon-wrapper:hover>* {
-		filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
+	transition: 0.2s;
+	filter: invert(70%) sepia(96%) saturate(465%) hue-rotate(2deg) brightness(108%) contrast(106%);
 
 }
 
@@ -344,12 +353,15 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+
+    transition: 0.5s;
 }
 
 .stage:hover {
 	background-color: var(--blue-gray-hover);
-	transition: 0.5s all smooth;
 	transform: scale(1.05);
+
+	transition: 0.2s;
 }
 
 .stage-icon {
@@ -393,7 +405,7 @@ nav {
 .works-container {
 	padding: 1rem;
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
 
 	display: flex;
 	flex-direction: column;
@@ -409,6 +421,7 @@ nav {
 
 	line-height: 1;
 	font-weight: normal;
+	color: var(--gray-text);
 }
 
 .works-main-title {
@@ -427,6 +440,10 @@ nav {
 
 	width: 10rem;
 	border-bottom: 3px solid var(--yellow);
+}
+
+.works-description {
+	color: var(--gray-text);
 }
 
 .filters {
@@ -486,6 +503,14 @@ nav {
 	position: relative;
 }
 
+.work-title {
+	font-size: 1.5rem;
+}
+
+.work-description {
+	color: var(--gray-text);
+}
+
 .showcase-hidden {
 	display: none;
 }
@@ -543,32 +568,35 @@ nav {
 .work-selection-wrapper {
 	background-color: var(--gray);
 
-	width: 100%
-
-	margin-left: auto;
-	margin-right: auto;
-
 	height: 20rem;
-	overflow: scroll;
 
+	/*solving the horizontal scrolling problem, */
+	width: var(--viewportWidth);
 	position: relative;
-	left: calc(-50vw + 50%);
+	right: 50%;
+	margin-right: -50vw;
+	margin-left: 0;
+	margin-left: calc(50% - 50vw - var(--finalHalfScrollbar, -7px));
+	overflow: hidden;
+
 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+
+
 }
 
 .work-selection-wrapper::-webkit-scrollbar {
-  display: none;
+  	display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .work-selection-wrapper {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
 }
 
 /*
@@ -585,6 +613,154 @@ nav {
 	background-color: var(--blue);
 }*/
 
+/* ----------------------------------------------------
+				like-our-porfolio
+-----------------------------------------------------*/
+
+.like-our-portfolio-section {
+	background-color: var(--white);
+	position: relative;
+}
+
+.lop-container {
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	position: relative;
+	text-align: center;
+}
+
+.lop-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.lop-description {
+	margin-right: auto;
+	margin-left: auto;
+
+	line-height: 1;
+	font-weight: normal;
+	color: var(--gray-text);
+}
+
+.lop-contact-btn {
+	width: fit-content;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	color: var(--white);
+    background-color: var(--yellow);
+    padding: 0.5rem 2rem;
+}
+
+
+/* ----------------------------------------------------
+						numbers
+-----------------------------------------------------*/
+
+
+.numbers-section {
+	background-color: var(--blue-gray);
+	position: relative;
+}
+
+.numbers-container {
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	position: relative;
+	text-align: center;
+}
+
+.numbers-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	font-size: 2rem;
+	line-height: 1;
+
+	color: var(--white);
+}
+
+.numbers-description {
+	margin-right: auto;
+	margin-left: auto;
+
+	line-height: 1;
+	font-weight: lighter;
+	color: var(--light-gray) !important;
+}
+
+.numbers {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.number-wrapper {
+	transition: 0.5s;
+
+	width: 40%;
+	height: 7rem;
+	padding: 1rem;
+	border: 1px solid var(--yellow);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+.number-wrapper:hover {
+	transition: 0.5s;
+	background-color: var(--dark-blue);
+}
+
+.numbers div[class*='number'] h3{
+	transition: 0.5s;
+	color: var(--white);
+	font-size: 1.5rem;
+	font-weight: bold;
+
+}
+
+.number-wrapper:hover h3{
+	transition: 0.5s;
+	letter-spacing: 2px;
+}
+
+.numbers div[class*='number'] p {
+	transition: 0.5s;
+
+	color: var(--yellow);
+	font-size: 0.8rem;
+	font-weight: lighter;
+}
+
+.number-wrapper:hover p {
+	transition: 0.5s;
+	letter-spacing: 2px;
+}
 
 
 

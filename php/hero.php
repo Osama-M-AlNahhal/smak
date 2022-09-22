@@ -1,4 +1,4 @@
-<section class="hero-container">
+<section class="hero-container" id="HOME">
 	<div class="hero-bg-strip"></div>
 	<h1 class="slogan">BRANDING HAS ANOTHER DEFINITION</h1>
 	<a href="#" class="buy-btn">BUY THIS THEME</a>

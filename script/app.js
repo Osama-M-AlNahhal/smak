@@ -47,3 +47,18 @@ closeWorksShowcaseIcon.addEventListener('click', () => {
 // 	//
 // }
 
+/* ----------------------------------------------------
+			like-our-porfolio functionality
+-----------------------------------------------------*/
+
+
+//remove small horizontal scrollbar when a block is full bleed
+var scrollbarWidth = window.innerWidth - document.body.clientWidth;
+var halfScrollbarWidth = scrollbarWidth / 2;
+document.body.style.setProperty('--scrollbarWidth', `${scrollbarWidth}px`);
+document.body.style.setProperty('--halfScrollbarWidth', `${halfScrollbarWidth}px`);
+
+
+/* ----------------------------------------------------
+					numbers
+-----------------------------------------------------*/

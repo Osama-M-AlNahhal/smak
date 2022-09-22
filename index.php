@@ -18,6 +18,8 @@
 	<?php require_once 'php/services.php'; ?>
 	<?php require_once 'php/how.php'; ?>
 	<?php require_once 'php/work.php'; ?>
+	<?php require_once 'php/likeOurPortfolio.php'; ?>
+	<?php require_once 'php/numbers.php'; ?>
 	<?php require_once 'php/about.php'; ?>
 	<?php require_once 'php/clients.php'; ?>
 	<?php require_once 'php/contact.php'; ?>
