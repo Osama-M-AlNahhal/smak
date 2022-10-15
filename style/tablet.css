@@ -154,18 +154,23 @@
 -----------------------------------------------------*/
 
 
-.value-text {
-	align-items: flex-start;
-	text-align: left;
-}
+	.value-text {
+		align-items: flex-start;
+		text-align: left;
+	}
 
-.value:nth-of-type(even) {
-	flex-direction: row;
-}
+	.value:nth-of-type(even) {
+		flex-direction: row;
+	}
 
-.au-description {
-	margin-bottom: 0;
-}
+	.au-description {
+		margin-bottom: 0;
+	}
+
+/* ----------------------------------------------------
+					The team
+-----------------------------------------------------*/
+
 
 
 	

@@ -36,6 +36,10 @@
 
 		padding-right: 1rem;
 		padding-top: 0;
+
+		position: relative;
+		right: 0;
+		top: 1rem;
 	}
 
 	.block-before::before {
@@ -236,4 +240,9 @@
 		font-size: 0.9rem;
 		color: var(--gray);
 	}
+
+/* ----------------------------------------------------
+					The team
+-----------------------------------------------------*/
+
 }

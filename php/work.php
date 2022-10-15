@@ -1,4 +1,4 @@
-<section class="works-section">
+<section class="works-section" id="WORK">
 	<div class="works-container">
 
 		<h3 class="works-secondary-title">OUR WORKS</h3>

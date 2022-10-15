@@ -1,4 +1,4 @@
-<section class="about-us-section">
+<section class="about-us-section" id="ABOUT">
 	<div class="about-us-container">
 		<h3 class="au-secondary-title">ABOUT US</h3>
 		<h2 class="au-main-title">WHO WE ARE</h2>

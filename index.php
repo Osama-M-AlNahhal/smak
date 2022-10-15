@@ -21,11 +21,14 @@
 	<?php require_once 'php/likeOurPortfolio.php'; ?>
 	<?php require_once 'php/numbers.php'; ?>
 	<?php require_once 'php/about.php'; ?>
+	<?php require_once 'php/team.php'; ?>
+	<?php require_once 'php/skills.php'; ?>
 	<?php require_once 'php/clients.php'; ?>
 	<?php require_once 'php/contact.php'; ?>
 	<?php require_once 'php/footer.php'; ?>
 
 
+	<script src="script/jquery-3.6.1.min.js"></script>
 	<script src="script/app.js"></script>
 </body>
 </html>

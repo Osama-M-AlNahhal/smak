@@ -11,11 +11,20 @@
 	--dark-gray: #131316;
 	--blue-gray: #131a1d;
 	--blue-gray-hover: #1a2226;
+	--green: #04fc43;
+    --light-blue: #03a9f4;
 
+	--percentage-1: 90;
+	--percentage-2: 96;
+	--percentage-3: 85;
+	--percentage-4: 94;
+	
 	--viewportWidth: calc(100vw - var(--scrollbarWidth));
 
 	/* finalHalfScrollbar: value must be negative */
 	--finalHalfScrollbar: calc(var(--halfScrollbarWidth) * -1);
+
+	--menu-width: 0;
 
 
 }
