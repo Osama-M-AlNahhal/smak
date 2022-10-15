@@ -9,7 +9,7 @@
 					<img src="img/person1.jpeg" alt="person image" class="member-img">
 				</div>
 				<div class="member-text">
-					<h3 class="member-name">JOHN DOE</h3>
+					<h3 class="member-name">SEBASTIEN TYMOFIY</h3>
 					<p class="member-job-title">CREATIVE DIRECTOR</p>
 				</div>
 			</div>
@@ -18,7 +18,7 @@
 					<img src="img/person2.jpeg" alt="person image" class="member-img">
 				</div>
 				<div class="member-text">
-					<h3 class="member-name">JOHN DOE</h3>
+					<h3 class="member-name">ELISABETA HERMAN</h3>
 					<p class="member-job-title">ART DIRECTOR</p>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 					<img src="img/person3.jpeg" alt="person image" class="member-img">
 				</div>
 				<div class="member-text">
-					<h3 class="member-name">JOHN DOE</h3>
+					<h3 class="member-name">RAJEEV DAPHNE</h3>
 					<p class="member-job-title">WEB DEVELOPER</p>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 					<img src="img/person4.jpeg" alt="person image" class="member-img">
 				</div>
 				<div class="member-text">
-					<h3 class="member-name">JOHN DOE</h3>
+					<h3 class="member-name">JORY AWILIX</h3>
 					<p class="member-job-title">PHOTOGRAPHER</p>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 					<p class="member-detailed-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ipsa non. Eaque optio laudantium sapiente et eveniet possimus, vel odio officia nulla quasi libero perferendis quaerat saepe, facilis sit nostrum.</p>
 					<div class="socials">
 						<a class="facebook" href="#" target="_black"></a>
-						<a class="twitter" href="#" target="_black"></a>
+						<a class="twitter" href="#" target="_black"	></a>
 					</div>
 				</div>
 			</div>

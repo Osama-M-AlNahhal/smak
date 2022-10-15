@@ -8,8 +8,8 @@
             <div class="skill">
                 <div class="percentage" data-percentage="90">
                     <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>    
+                        <circle cx="60" cy="60" r="60"></circle>
+                        <circle cx="60" cy="60" r="60"></circle>    
                     </svg>
                     <h4 class="number">90<span>%</span></h4>
                 </div>
@@ -19,8 +19,8 @@
             <div class="skill">
                 <div class="percentage" data-percentage="90">
                     <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>    
+                        <circle cx="60" cy="60" r="60"></circle>
+                        <circle cx="60" cy="60" r="60"></circle>    
                     </svg>
                     <h4 class="number">96<span>%</span></h4>
                 </div>
@@ -30,8 +30,8 @@
             <div class="skill">
                 <div class="percentage" data-percentage="90">
                     <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>    
+                        <circle cx="60" cy="60" r="60"></circle>
+                        <circle cx="60" cy="60" r="60"></circle>    
                     </svg>
                     <h4 class="number">85<span>%</span></h4>
                 </div>
@@ -41,13 +41,13 @@
             <div class="skill">
                     <div class="percentage" data-percentage="90">
                         <svg>
-                            <circle cx="70" cy="70" r="70"></circle>
-                            <circle cx="70" cy="70" r="70"></circle>    
+                            <circle cx="60" cy="60" r="60"></circle>
+                            <circle cx="60" cy="60" r="60"></circle>    
                         </svg>
                         <h4 class="number">94<span>%</span></h4>
                     </div>
                     <h3 class="skill-name">PHOTOGRAPHY</h3>
-                </div> 
+                </div>  
         </div>
 
     </div>

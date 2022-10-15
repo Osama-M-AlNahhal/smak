@@ -1103,7 +1103,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -1122,16 +1122,15 @@ nav {
 
 .percentage {
 	position: relative;
-	width:150px;
-	height:150px;
-	transform: rotate(270);
+	width:130px;
+	height:130px;
 	
 }
 
 .percentage svg {
 	position: relative;
-	width:150px;
-	height:150px;
+	width:130px;
+	height:130px;
 }
 
 .percentage svg circle {
@@ -1142,7 +1141,7 @@ nav {
 	stroke: #191919;
 	transform: translate(5px, 5px);
 
-	stroke-dasharray:420;
+	stroke-dasharray:380;
 	stroke-dashoffset:0;
 }
 
@@ -1194,4 +1193,136 @@ nav {
 	color: var(--yellow);
 	font-weight: normal;
 }
+
+
+
+/* ----------------------------------------------------
+					Clients
+-----------------------------------------------------*/
+
+.clients-section {
+	background: var(--white);
+}
+
+
+.clients-container {
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+
+	position: relative;
+	text-align: center;
+}
+
+.clients-secondary-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	line-height: 1;
+	font-weight: normal;
+	color: var(--gray-text);
+}
+
+.clients-main-title {
+	margin-right: auto;
+	margin-left: auto;
+
+	font-size: 2rem;
+	line-height: 1;
+}
+
+.divider {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+
+	width: 10rem;
+	border-bottom: 3px solid var(--yellow);
+}
+
+.clients-description {
+	color: var(--gray-text);
+	margin-bottom: 2rem;
+}
+
+.clients {
+	width: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+.slider-wrapper {
+	overflow: hidden;
+	position: relative;
+	left: 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap:1rem;
+}
+
+.client {
+	
+	width: fit-content;
+	height: 2rem;
+	object-fit: contain;
+
+	float: left;
+	overflow:hidden;
+
+	position: relative;
+	left: 0;
+}
+
+.client img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.clients-slider-control {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+.previous-client, .next-client {
+	background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.previous-client img, .next-client img {
+	filter: invert(100%) sepia(82%) saturate(2%) hue-rotate(220deg) brightness(111%) contrast(101%);
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    
+}
+
+.previous-client img {
+	right: 3px;
+}
+
+.next-client img {
+    left: 2px;	
+}
+
 

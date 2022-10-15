@@ -333,4 +333,28 @@ closeWorksShowcaseIcon.on('click', () => {
 	$(".close-detailed-description").on("click", function(){
 		memberDetails.fadeOut(200);
 	});
+
+/* ----------------------------------------------------
+					Clients
+-----------------------------------------------------*/
+
+	let translateX = 2;
+
+	setInterval 
+
+	+= translateX + "px"
+
+	let previousClientBtn = $(".previous-client"),	
+		nextClientBtn = $(".next-clinet"),
+		clientsList = $(".client"),
+		firstClient = clientsList.get(0),
+		lastClient = clientsList.get(clientsList.length);
+
+	previousClientBtn.on("click", function(){
+		window.console.log(firstClient);
+	});
+
+
+
 });
+
