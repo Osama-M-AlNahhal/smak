@@ -9,8 +9,29 @@
 						navbar
 -----------------------------------------------------*/
 
-	.navbar-container {
-		height: 10vh;
+	.navbar {
+		background: linear-gradient(to bottom, #122a2fff, #122a2f00);
+		background: linear-gradient(to bottom, transparent, transparent);
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+	.navbar:hover {
+		background: var(--dark-blue);
+	}
+
+	.navbar.hovered {
+		background: var(--dark-blue);
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+
+	.navbar .navbar-container {
+		height: 5rem;
+		padding: 0;
 		
 		flex-direction: row;
 		justify-content: space-between;
@@ -20,8 +41,8 @@
 	.logo {
 		transform: scale(0.8);
 	    position: relative;
-	    top: 0.4rem;
-	    left: 0rem;
+	    top: 0;
+	    left: 0;
 	}
 
 	.hamburger-icon {
@@ -29,17 +50,17 @@
 	}
 	
 	.navbar-links-ul {
+		width: fit-content;
+		background-color: transparent;
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-end;
+		justify-content: center;
+		align-items: center;
 		height: fit-content;
-
-		padding-right: 1rem;
 		padding-top: 0;
-
 		position: relative;
 		right: 0;
-		top: 1rem;
+		top: 0;
 	}
 
 	.block-before::before {
@@ -60,41 +81,116 @@
 	}
 
 	.navbar-link {
-		margin-left: 0.5rem;
 		display: inline-block;
 		font-size: 1rem;
 		border-bottom: 1px solid transparent;
+
+		position: relative;
+		z-index: inherit;
 	}
 
-	.navbar-link:hover {
+	
+	/* .navbar-link:hover {
 		border-bottom: 1px solid var(--yellow);
-
+		
 	}
-
+	
 	.current:hover {
 		border-bottom: 0px solid var(--yellow);
-	}
-
+	} */
+	
 	.current {
 		font-size: inherit;
 		letter-spacing: 0;
+		
+	}
+	.navbar-link::before {
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: var(--yellow);
+		position: absolute;
+		z-index: inherit;
+		bottom: calc(-1.75rem + 1px);
+		left: 0;
 
+		-webkit-transition: width 0.3s ease-out;
+		-moz-transition: width 0.3s ease-out;
+		-o-transition: width 0.3s ease-out;
+		transition: width 0.3s ease-out;
+	}
+
+	.navbar-link::after {
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: var(--yellow);
+		position: absolute;
+		z-index: inherit;
+		top: calc(-1.75rem);
+		left: 0;
+
+		-webkit-transition: width 0.3s ease-out;
+		-moz-transition: width 0.3s ease-out;
+		-o-transition: width 0.3s ease-out;
+		transition: width 0.3s ease-out;
+	}
+	.navbar-link:hover::before {
+		content: "";
+		width: 100%;
+	}
+	.navbar-link:hover::after {
+		content: "";
+		width: 100%;
 	}
 
 /* ----------------------------------------------------
 						hero
 -----------------------------------------------------*/
 
+	
 	.slogan {
 		font-size: 2.5rem;
 	    line-height: 1.25;
 	    max-width: 30rem;
 	    top: 42vh;
+		cursor: default;
 	}
 
 	.buy-btn {
 		top: 62vh;
 	}
+
+	.sliding-panels {
+		position: fixed;
+		width: fit-content;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 200;
+	}
+
+	.panel-1, .panel-2, .panel-3, .panel-4 {
+		width: 100vw;
+		height: 25%;
+		position: relative;
+		left: 0;
+		z-index: inherit;
+	}
+
+	.panel-1 {
+		background-color: var(--yellow);
+	}
+	.panel-2 {
+		background-color: var(--yellow);
+	}
+	.panel-3 {
+		background-color: var(--yellow);
+	}
+	.panel-4 {
+		background-color: var(--yellow);
+	}
+	
 
 	
 
@@ -124,6 +220,7 @@
 	
 	.service {
 		max-width: 11rem;
+		cursor: default;
 	}
 
 	.service-icon-wrapper {
@@ -209,40 +306,87 @@
 					About us
 -----------------------------------------------------*/
 
-	.values-wrapper {
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
+.values-wrapper {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
-	.value {
-		border: none;
-		flex-direction: row;
-	}
+.value {
+	border: none;
+	flex-direction: row;
+}
 
-	.value:nth-of-type(1) {
-		border: none;
-	}
+.value:nth-of-type(1) {
+	border: none;
+}
 
-	.value-icon-wrapper {
+.value-icon-wrapper {
 		width: 4rem;
 		height: 4rem;
-
+		
 		min-width: 4rem;
 		min-height: 4rem;
 	}
-
+	
 	.value-text {
 		flex-direction: column;
 		max-width: 15rem;
 	}
-
+	
 	.value-description {
 		font-size: 0.9rem;
 		color: var(--gray);
 	}
-
+	
 /* ----------------------------------------------------
 					The team
 -----------------------------------------------------*/
+
+
+.testimonies-control {
+	width: fit-content;
+	position: fixed;
+	left: 50%;
+	bottom: 35%;
+	transform: translateX(-40%);
+}
+
+/* ----------------------------------------------------
+					About us
+-----------------------------------------------------*/
+
+.contact-methods {
+	flex-direction: row;
+}
+
+/* ----------------------------------------------------
+					Contact us
+-----------------------------------------------------*/
+.contact-form .group-1, .contact-form .group-2 {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form input {
+    width: 32.5%;
+}
+/* ----------------------------------------------------
+					footer
+-----------------------------------------------------*/
+
+.back-to-top-btn.floating {
+	z-index: 50;
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	display: none;
+}
+.back-to-top-btn.floating.visible {
+	display: block;
+}
+
+
 
 }

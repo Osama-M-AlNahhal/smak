@@ -1,5 +1,6 @@
 <section class="team-section">
-	<div class="team-container">
+	<div class="team-container wow animate__animated animated animate__fadeInUp fadeInUp" data-wow-duration="500ms" data-wow-delay="1000ms" style="visibility:visible;animation-name:fadeInUp;animation-duration:500ms;animation-delay:1000ms;">
+
 		<h2 class="team-title">THE TEAM</h2>
 		<p class="team-description">Meet the wonderful people responsible for designing, creating, and managing all of your projects</p>
 		<div class="members">
@@ -41,7 +42,10 @@
 				</div>
 			</div>
 
-			<div class="member-details">
+			
+		</div>
+	</div>
+	<div class="member-details">
 				<div class="member-details-container">
 					<div class="close-detailed-description">
 						<img src="img/cross.svg" alt="close-icon" class="cross-icon">
@@ -55,6 +59,4 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 </section>

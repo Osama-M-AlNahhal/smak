@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" data-last-style="">
 	<div class="navbar-container">
 		<img src="img/logo.png" alt="logo" class="logo">
 
@@ -8,24 +8,24 @@
 			</svg>
 		</div>
 
-		<ul class="navbar-links-ul hidden">
+		<ul class="navbar-links-ul">
 			<li>
 				<a href="#HOME" data-scroll="HOME" class="navbar-link current">HOME</a>
 			</li>
 			<li>
-				<a href="#SERVICES" data-scroll="SERVICES" class="navbar-link block-before">SERVICES</a>
+				<a href="#SERVICES" data-scroll="SERVICES" class="navbar-link">SERVICES</a>
 			</li>
 			<li>
-				<a href="#WORK" data-scroll="WORK" class="navbar-link block-before">WORK</a>
+				<a href="#WORK" data-scroll="WORK" class="navbar-link">WORK</a>
 			</li>
 			<li>
-				<a href="#ABOUT" data-scroll="ABOUT" class="navbar-link block-before">ABOUT</a>
+				<a href="#ABOUT" data-scroll="ABOUT" class="navbar-link">ABOUT</a>
 			</li>
 			<li>
-				<a href="#CLIENTS" data-scroll="CLIENTS" class="navbar-link block-before">CLIENTS</a>
+				<a href="#CLIENTS" data-scroll="CLIENTS" class="navbar-link">CLIENTS</a>
 			</li>
 			<li>
-				<a href="#CONTACT" data-scroll="CONTACT" class="navbar-link block-before">CONTACT</a>
+				<a href="#CONTACT" data-scroll="CONTACT" class="navbar-link">CONTACT</a>
 			</li>
 		</ul>
 	</div>

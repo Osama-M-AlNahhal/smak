@@ -1,11 +1,11 @@
 <section class="about-us-section" id="ABOUT">
-	<div class="about-us-container">
+	<div class="about-us-container wow animate__animated animated animate__fadeInUp fadeInUp" data-wow-duration="600ms" data-wow-delay="200ms" style="visibility:visible;animation-name:fadeInUp;animation-duration:600ms;animation-delay:200ms;">
 		<h3 class="au-secondary-title">ABOUT US</h3>
 		<h2 class="au-main-title">WHO WE ARE</h2>
 		<div class="divider"></div>
 		<p class="au-description">We're a sincere company with a straightforward vision. We believe that there is an amazing amount to be learned by working in a "real-world" web production environment, alongside other like-minded developers, to help bring people's imaginations into reality. and with that in mind, the following values define our work, and by extension, define us:</p>
 		<div class="values-wrapper">
-			<div class="value">
+			<div class="value wow animate__animated animated animate__slideInLeft slideInLeft" data-wow-duration="600ms" data-wow-delay="200ms" style="visibility:visible;animation-name:slideInLeft;animation-duration:600ms;animation-delay:200ms;">
 				<div class="value-icon-wrapper">
 					<img src="img/alarm.svg" alt="alarm icon" class="value-icon">
 				</div>
@@ -14,7 +14,7 @@
 					<p class="value-description">Your time is valuable to us, and we always work with that in mind, we work to deliver our work on time without any delay.</p>
 				</div>
 			</div>
-			<div class="value">
+			<div class="value wow animate__animated animated animate__slideInRight slideInRight" data-wow-duration="600ms" data-wow-delay="200ms" style="visibility:visible;animation-name:slideInRight;animation-duration:600ms;animation-delay:200ms;">
 				<div class="value-icon-wrapper">
 					<img src="img/lifebuoy.svg" alt="lifebuoy icon" class="value-icon">
 				</div>
@@ -23,7 +23,7 @@
 					<p class="value-description">Not only do we take care of the project from start to finish, we also keep taking care of it after delivery, should the need for any improvements arise, we'll swiftly take care of it.</p>
 				</div>
 			</div>
-			<div class="value">
+			<div class="value wow animate__animated animated animate__slideInLeft slideInLeft" data-wow-duration="600ms" data-wow-delay="200ms" style="visibility:visible;animation-name:slideInLeft;animation-duration:600ms;animation-delay:200ms;">
 				<div class="value-icon-wrapper">
 					<img src="img/thumbs-up.png" alt="thumbs up icon" class="value-icon">
 				</div>
@@ -32,7 +32,7 @@
 					<p class="value-description">With over a decade of professional experience under our belts, our team is more than capable of handling any project our clients need.</p>
 				</div>
 			</div>
-			<div class="value">
+			<div class="value wow animate__animated animated animate__slideInRight slideInRight" data-wow-duration="600ms" data-wow-delay="200ms" style="visibility:visible;animation-name:slideInRight;animation-duration:600ms;animation-delay:200ms;">
 				<div class="value-icon-wrapper">
 					<img src="img/bubbles2.svg" alt="speach bubble icon" class="value-icon">
 				</div>

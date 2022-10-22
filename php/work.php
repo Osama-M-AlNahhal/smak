@@ -1,12 +1,12 @@
 <section class="works-section" id="WORK">
-	<div class="works-container">
+	<div class="works-container wow animated fadeInUp " data-wow-duration="500ms" data-wow-delay="700ms" style="visibility:visible;animation-name:fadeInUp;animation-duration:500ms;animation-delay:700ms;">
 
 		<h3 class="works-secondary-title">OUR WORKS</h3>
 		<h2 class="works-main-title">WHAT WE'VE DONE SO FAR</h2>
 		<div class="divider"></div>
 		<p class="works-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vel cupiditate pariatur non amet maxime architecto veniam ipsam fugiat consequatur dolorem expedita exercitationem autem atque, distinctio odit vitae corporis tenetur.</p>
 
-		<div class="filters">
+		<div class="filters wow animated animate__backInLeft backInLeft" data-wow-duration="900ms" data-wow-delay="1500ms" style="visibility:visible;animation-name:backInLeft;animation-duration:900ms;animation-delay:1500ms;">
 			<button type="button" class="filter filter-button selected">ALL</button>
 			<div class="square-divider"></div>
 			<button type="button" class="filter filter-button">WEB DESIGN</button>
@@ -18,7 +18,7 @@
 			<button type="button" class="filter filter-button">ILLUSTRATION</button>
 		</div>
 
-		<div class="work-showcase">
+		<div class="work-showcase wow animated lightSpeedInLeft animate__lightSpeedInLeft" data-wow-duration="500ms" data-wow-delay="1000ms" style="visibility:visible;animation-name:lightSpeedInLeft;animation-duration:500ms;animation-delay:1000ms;">
 
 			<div class="close-showcase">
 				<img src="img/cross.svg" alt="close-icon" class="cross-icon">

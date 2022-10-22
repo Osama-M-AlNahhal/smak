@@ -1,10 +1,10 @@
 <section class="how-section">
-	<div class="how-container">
+	<div class="how-container wow animated fadeInLeft " data-wow-duration="500ms" data-wow-delay="500ms" style="visibility:visible;animation-name:fadeInLeft;animation-duration:500ms;animation-delay:500ms;">
 
 		<h2 class="how-title">HOW WE DO IT</h2>
 		<p class="how-description">The method to our maddness, this is how we go about turning an idea into a finished product:</p>
 		
-		<div class="stages">
+		<div class="stages wow animated fadeInUp " data-wow-duration="500ms" data-wow-delay="500ms" style="visibility:visible;animation-name:fadeInUp;animation-duration:500ms;animation-delay:500ms;">
 			<div class="stage">
 				<img src="img/lab.svg" alt="flask-icon" class="stage-icon">
 				<div class="stage-text">

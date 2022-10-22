@@ -1,5 +1,5 @@
 <section class="skills-section">
-    <div class="skills-container">
+    <div class="skills-container wow animate__animated animated animate__fadeInUp fadeInUp" data-wow-duration="500ms" data-wow-delay="1000ms" style="visibility:visible;animation-name:fadeInUp;animation-duration:500ms;animation-delay:1000ms;">
         <h2 class="skills-title">SKILLS</h2>
         <p class="skills-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore porro voluptatum possimus doloribus corporis modi.</p>
 
